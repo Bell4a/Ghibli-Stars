@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghibli Stars</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jse.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@5.5.3/dist/ionicons/ionicons.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="profile">
+            <a href="cadastro.html">
+                <img id="icon" src="iconoracat.jpg">
+            </a>
+        </div>
+
+        <div id="bt1" class="bt"> <a href="#filmes"> Filmes </a> </div>
+
+        <a href="#">
+            <div id="logo">
+                <img class="fotologo" src="logo.png">
+            </div>
+        </a>
+
+        <div id="bt2" class="bt">  <a href="avaliacoes.html"> Avaliações </a> </div>
+
+        <div class="search-box">
+            <input type="text" class="search-text" placeholder="Vamos ver o arco-íris juntos!!" size="32px">
+            <a class="search-btn">
+                <img class="lupaa" src="lupamarela.png" alt="" width="30px">
+            </a>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="description">
+            <h2 id="film-title" class="highlight">Laputa - O Castelo no Céu</h2>  <!-- Novo elemento para o título -->
+            <p id="film-description">🄻 1986 ‧ Aventura/Fantasia ‧ 2h 4m<br><br>
+                Laputa é uma linda história de aventura em que Pazu, um menino que tirou fotos de uma cidade oculta, e Sheeta que possui uma estranha pedra azul, precisarão unir forças para descobrir como dar um fim a uma terrível ilha flutuante.</p>
+        </div>
+        <div class="video-container">
+            <video id="video-frame" width="96%" height="auto" autoplay muted loop>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="controls">
+            <button class="prev" id="prev-btn">&lt;</button>
+            <button class="next" id="next-btn">&gt;</button>
+        </div>
+    </div>
+
+    <a name="filmes"></a>
+</body>
+</html>
